@@ -1,8 +1,8 @@
 package com.company.orders.order.application.model;
 
 import java.time.LocalDateTime;
-import java.util.Currency;
 
+import com.company.orders.order.application.model.enums.Currency;
 import com.company.orders.order.infrastructure.persistence.converters.CurrencyConverter;
 
 import jakarta.persistence.Convert;
